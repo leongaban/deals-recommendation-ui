@@ -1,0 +1,51 @@
+runtime: go
+api_version: go1
+
+handlers:
+# If the path is empty, show static index.html file
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+
+# Otherwise, find file in static directory
+- url: /bundle.js
+  static_files: dist/bundle.js
+  upload: dist/bundle.js
+
+# Config is going through Go server.
+# - url: /cfg
+#   static_dir: dist/cfg
+
+# Otherwise, find file in static directory
+- url: /static
+  static_dir: dist/static
+
+# [END static_handlers]
+- url: /.*
+  script: _go_app
+
+# Skip any non-essential files for uploading during deploys.
+skip_files:
+# Defaults:
+# See: https://cloud.google.com/appengine/docs/standard/go/config/appref#skip_files
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+# Root files:
+- ^[a-zA-Z0-9]+\.js$
+- ^[a-zA-Z0-9]+\.json$
+- ^[a-zA-Z0-9]+\.lock$
+- ^[a-zA-Z0-9]+\.md$
+- ^[a-zA-Z0-9]+\.sh$
+- ^[a-zA-Z0-9]+\Dockerfile$
+# Directories
+- bin/
+- client/
+- docker-support/
+- docs/
+- e2e/
+- node_modules/
+- public/
+- src/

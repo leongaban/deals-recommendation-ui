@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainJest /> component when rendering should render a component matching the snapshot 1`] = `
+<div
+  className={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <Connect(WithStyles(TopNav)) />
+</div>
+`;

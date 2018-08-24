@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Required /> component when rendering should render a component matching the snapshot 1`] = `<span />`;

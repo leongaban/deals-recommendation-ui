@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubmitButton /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(Button)
+  className="foobar"
+  color="primary"
+  disabled={true}
+  type="submit"
+  variant="outlined"
+>
+  Add Product
+</WithStyles(Button)>
+`;

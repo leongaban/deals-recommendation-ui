@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteButton /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(Button)
+  className="foobar"
+  color="primary"
+  onClick={[MockFunction]}
+  type="submit"
+  variant="outlined"
+>
+  Delete Product
+</WithStyles(Button)>
+`;

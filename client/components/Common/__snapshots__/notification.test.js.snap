@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(Snackbar)
+  autoHideDuration={6000}
+  className="random-class-name"
+  id="notifications-snackbar"
+  message="Hello World!"
+  open={true}
+/>
+`;

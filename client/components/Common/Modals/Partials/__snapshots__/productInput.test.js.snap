@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductInput /> component when rendering should render a component matching the snapshot 1`] = `
+<div
+  className="col"
+>
+  <p>
+    Foo
+     
+    <Component
+      id="foo"
+    />
+  </p>
+  <input
+    id="foo"
+    onChange={[MockFunction]}
+    placeholder=""
+    type="text"
+    value="bar"
+  />
+</div>
+`;

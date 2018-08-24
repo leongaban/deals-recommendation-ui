@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsTabContainer /> component when rendering should render a component matching the snapshot 1`] = `
+<TabContainer>
+  <Connect(WithStyles(Table)) />
+</TabContainer>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingOverlay /> component when rendering should render a component matching the snapshot 1`] = `
+<div
+  className="loading-overlay"
+>
+  <h1>
+    UPDATING RULES.
+  </h1>
+  <WithStyles(CircularProgress)
+    size={250}
+  />
+</div>
+`;

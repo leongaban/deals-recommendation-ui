@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableHeaderJest /> component when rendering should render a component matching the snapshot 1`] = `
+<header
+  className="table-header"
+>
+  <h2>
+    Sort Rules
+  </h2>
+  <div
+    className="sort-options"
+  >
+    <RadioGroup
+      aria-label="lift"
+      name="lift"
+      onChange={[Function]}
+      value="Lift"
+    >
+      <WithStyles(FormControlLabel)
+        control={<WithStyles(Radio) />}
+        label="Lift"
+        value="Lift"
+      />
+      <WithStyles(FormControlLabel)
+        control={<WithStyles(Radio) />}
+        label="Weighted Lift"
+        value="WeightedLift"
+      />
+    </RadioGroup>
+  </div>
+  <section
+    className="limits"
+  >
+    <ul>
+      <li>
+        Enabled limits:
+      </li>
+      <li>
+        Overrides (
+        0
+        /4)
+      </li>
+      <li>
+        Defaults (
+        0
+        /8)
+      </li>
+      <li>
+        Excluded (
+        0
+        /8)
+      </li>
+    </ul>
+  </section>
+</header>
+`;

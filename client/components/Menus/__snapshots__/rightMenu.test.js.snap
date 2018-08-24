@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RightMenuJest /> component when rendering should render a component matching the snapshot 1`] = `
+<div>
+  <WithStyles(IconButton)
+    aria-haspopup="true"
+    aria-label="More"
+    aria-owns={null}
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)>
+      account_circle
+    </WithStyles(Icon)>
+  </WithStyles(IconButton)>
+  <WithStyles(Menu)
+    anchorEl={null}
+    id="topNavRightMenu"
+    onClose={[Function]}
+    open={false}
+  />
+</div>
+`;

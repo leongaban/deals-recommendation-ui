@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsJest /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(ContentSection)>
+  <section
+    className="header-container"
+  >
+    <header>
+      <section
+        className="btn-add-container"
+        onClick={[Function]}
+      >
+        <div
+          className="btn-add-product"
+        >
+          <div
+            className="circle"
+          />
+          <img
+            alt="Add a Product"
+            src="/static/imgs/icon-add.png"
+          />
+        </div>
+        <p>
+          Add a Product
+        </p>
+      </section>
+    </header>
+  </section>
+  <section
+    className="table-container"
+  >
+    <Connect(WithStyles(TableHeader)) />
+    <Connect(WithStyles(TableContainer)) />
+  </section>
+</WithStyles(ContentSection)>
+`;

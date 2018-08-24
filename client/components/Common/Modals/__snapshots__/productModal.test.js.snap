@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductModalJest /> component when rendering should render a component matching the snapshot 1`] = `
+<div
+  className="product-modal-container"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <section
+      className="product-modal"
+    >
+      <h1>
+        Add
+         Product
+      </h1>
+      <section
+        className="modal-limits"
+      >
+        <ul>
+          <li>
+            Enabled limits:
+          </li>
+          <li>
+            Overrides (
+            0
+            /4)
+          </li>
+          <li>
+            Defaults (
+            0
+            /8)
+          </li>
+          <li>
+            Excluded (
+            0
+            /8)
+          </li>
+        </ul>
+      </section>
+      <div
+        className="x-btn"
+        onClick={[Function]}
+      />
+      <ProductInput
+        edit={false}
+        handler={[Function]}
+        id="description"
+        val=""
+      />
+      <div
+        className="product-keys"
+      >
+        <ProductInput
+          handler={[Function]}
+          id="base"
+          val=""
+        />
+        <ProductInput
+          handler={[Function]}
+          id="classId"
+          val=""
+        />
+        <ProductInput
+          handler={[Function]}
+          id="prod"
+          val=""
+        />
+        <ProductInput
+          handler={[Function]}
+          id="size"
+          val=""
+        />
+      </div>
+      <Component
+        checked="Default"
+        classes={
+          Object {
+            "button": Object {
+              "borderRadius": "20px",
+            },
+            "buttonBlue": Object {
+              "backgroundColor": "#fff",
+              "color": "#2c6fc9",
+            },
+            "buttonRed": Object {
+              "backgroundColor": "#f44336",
+              "color": "#fff",
+            },
+            "group": Object {
+              "flexDirection": "row",
+            },
+            "root": Object {
+              "display": "flex",
+            },
+          }
+        }
+        handleChangeType={[Function]}
+      />
+      <div
+        className="product-enable"
+      >
+        <WithStyles(Switch)
+          checked=""
+          color="primary"
+          onChange={[Function]}
+          value=""
+        />
+        Enabled (Red) / Disabled (Gray)
+      </div>
+      <div
+        className="button-group"
+      >
+        <Component
+          classes={
+            Object {
+              "button": Object {
+                "borderRadius": "20px",
+              },
+              "buttonBlue": Object {
+                "backgroundColor": "#fff",
+                "color": "#2c6fc9",
+              },
+              "buttonRed": Object {
+                "backgroundColor": "#f44336",
+                "color": "#fff",
+              },
+              "group": Object {
+                "flexDirection": "row",
+              },
+              "root": Object {
+                "display": "flex",
+              },
+            }
+          }
+          edit={false}
+          isDisabled={true}
+        />
+        <Component
+          classes={
+            Object {
+              "button": Object {
+                "borderRadius": "20px",
+              },
+              "buttonBlue": Object {
+                "backgroundColor": "#fff",
+                "color": "#2c6fc9",
+              },
+              "buttonRed": Object {
+                "backgroundColor": "#f44336",
+                "color": "#fff",
+              },
+              "group": Object {
+                "flexDirection": "row",
+              },
+              "root": Object {
+                "display": "flex",
+              },
+            }
+          }
+          closeModal={[MockFunction]}
+        />
+      </div>
+      <p>
+        <span
+          className="red"
+        >
+          *
+        </span>
+         denotes required fields.
+      </p>
+    </section>
+    <div
+      className="overlay"
+      onClick={[Function]}
+    />
+  </form>
+</div>
+`;

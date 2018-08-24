@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TdDescription /> component when rendering should render a component matching the snapshot 1`] = `
+<ContentSection
+  classes={
+    Object {
+      "paperDefault": "ContentSection-paperDefault-1",
+    }
+  }
+  rule={
+    Object {
+      "base": "bar",
+      "class": "baz",
+      "description": "foo",
+      "prod": "qux",
+    }
+  }
+/>
+`;

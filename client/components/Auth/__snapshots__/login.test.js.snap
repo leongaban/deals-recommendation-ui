@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteInterceptor /> component when rendering should render a component matching the snapshot 1`] = `
+<Login
+  classes={
+    Object {
+      "copy": "Login-copy-5 copy",
+      "inputLeft": "Login-inputLeft-4 inputLeft",
+      "loginButton": "Login-loginButton-2 loginButton",
+      "loginForm": "Login-loginForm-3 loginForm",
+      "wrapper": "Login-wrapper-1 warpper",
+    }
+  }
+/>
+`;

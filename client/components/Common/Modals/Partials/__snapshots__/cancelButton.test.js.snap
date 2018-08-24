@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CancelButton /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(Button)
+  className="foobar"
+  onClick={[Function]}
+>
+  Cancel
+</WithStyles(Button)>
+`;

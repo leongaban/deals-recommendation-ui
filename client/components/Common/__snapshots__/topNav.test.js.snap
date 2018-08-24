@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopNavJest /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(AppBar)
+  position="static"
+>
+  <WithStyles(Toolbar)>
+    <WithStyles(Typography)
+      className="flex"
+      color="inherit"
+      variant="title"
+    >
+      Recommendation Engine (Siskel)
+    </WithStyles(Typography)>
+    <Connect(RightMenu) />
+  </WithStyles(Toolbar)>
+</WithStyles(AppBar)>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteModalJest /> component when rendering should render a component matching the snapshot 1`] = `
+<div
+  className="product-modal-container"
+>
+  <section
+    className="product-modal delete-modal"
+  >
+    <h1>
+      Delete Product Confirmation
+    </h1>
+    <strong />
+    <div
+      className="x-btn"
+      onClick={[Function]}
+    />
+    <div
+      className="button-group"
+    >
+      <Component
+        classes={
+          Object {
+            "root": Object {
+              "display": "flex",
+            },
+          }
+        }
+        handleDelete={[Function]}
+      />
+      <Component
+        classes={
+          Object {
+            "root": Object {
+              "display": "flex",
+            },
+          }
+        }
+        closeModal={[MockFunction]}
+      />
+    </div>
+  </section>
+  <div
+    className="overlay"
+    onClick={[Function]}
+  />
+</div>
+`;

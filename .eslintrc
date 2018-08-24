@@ -1,0 +1,61 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "dependencies"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "client",
+          "node_modules"
+        ]
+      }
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "babel/new-cap": 0,
+    "babel/no-invalid-this": 1,
+    "babel/object-curly-spacing": 0,
+    "babel/quotes": 0,
+    "babel/semi": 0,
+    "babel/no-unused-expressions": 1,
+    "comma-dangle": ["error", "never"],
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "react/no-find-dom-node": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "import/prefer-default-export": 0,
+    "no-extra-boolean-cast": 0,
+    "dependencies/no-cycles": 1,
+    "max-len": ['error', 100, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }],
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "browser": true,
+    "localStorage": true
+  },
+  "env": {
+    "jest": true
+  }
+}

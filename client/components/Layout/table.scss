@@ -1,0 +1,75 @@
+.table-container {
+  margin-top: 20px;
+  width: 100%;
+
+  table { width: 100%; color: #000; }
+
+  th {
+    padding: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid $darkGray;
+
+    &:first-child,
+    &:nth-child(2) {
+      text-align: left;
+    }
+
+    &:nth-child(3) {
+      text-align: center;
+    }
+  }
+
+  td {
+    margin: 5px 0;
+    padding: 10px;
+    border-bottom: 1px solid $darkGray;
+  }
+}
+
+.description {
+  min-width: 200px;
+  max-width: 200px;
+  text-align: left;
+
+  section {
+    span {
+      float: left;
+      width: 100%;
+    }
+  }
+}
+
+.dropdown-arrow,
+.dropup-arrow { width: 22px; height: 15px; }
+
+.dropdown-arrow,
+.dropup-arrow,
+.pencil-ico,
+.trash-ico {
+  @include transition(opacity, .3s, ease-in-out);
+  opacity: 0.6;
+  cursor: pointer;
+  &:hover { opacity: 1; }
+}
+
+.dropdown-arrow { background-image: url('static/imgs/down.png'); }
+
+.dropup-arrow { background-image: url('static/imgs/up.png'); }
+
+.pencil-ico,
+.trash-ico {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.pencil-ico {
+  width: 18px;
+  height: 18px;
+  background-image: url('static/imgs/pencil.png');
+}
+
+.trash-ico {
+  width: 14px;
+  height: 18px;
+  background-image: url('static/imgs/trash.png');
+}

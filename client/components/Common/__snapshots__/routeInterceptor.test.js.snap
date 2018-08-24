@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteInterceptor /> component when rendering should render a component matching the snapshot 1`] = `<Component />`;

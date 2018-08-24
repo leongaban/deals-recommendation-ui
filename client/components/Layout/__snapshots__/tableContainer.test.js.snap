@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableContainerJest /> component when rendering should render a component matching the snapshot 1`] = `
+<div
+  className="root"
+>
+  <WithStyles(AppBar)
+    position="static"
+  >
+    <WithStyles(Tabs)
+      classes={
+        Object {
+          "indicator": undefined,
+          "root": undefined,
+        }
+      }
+      onChange={[Function]}
+      value={0}
+    >
+      <WithStyles(Tab)
+        classes={
+          Object {
+            "root": undefined,
+            "selected": undefined,
+          }
+        }
+        key="All Products"
+        label="All Products"
+      />
+      <WithStyles(Tab)
+        classes={
+          Object {
+            "root": undefined,
+            "selected": undefined,
+          }
+        }
+        key="Override"
+        label="Override"
+      />
+      <WithStyles(Tab)
+        classes={
+          Object {
+            "root": undefined,
+            "selected": undefined,
+          }
+        }
+        key="Default"
+        label="Default"
+      />
+      <WithStyles(Tab)
+        classes={
+          Object {
+            "root": undefined,
+            "selected": undefined,
+          }
+        }
+        key="Excluded"
+        label="Excluded"
+      />
+    </WithStyles(Tabs)>
+  </WithStyles(AppBar)>
+  <ProductsTabContainer
+    classes={
+      Object {
+        "root": "root",
+      }
+    }
+    getRules={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
+    rulesAll={Array []}
+    rulesDefault={Array []}
+    rulesExcluded={Array []}
+    rulesOverride={Array []}
+    value={0}
+  />
+</div>
+`;

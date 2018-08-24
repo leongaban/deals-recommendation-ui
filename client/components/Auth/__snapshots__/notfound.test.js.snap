@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> component when rendering should render a component matching the snapshot 1`] = `
+<WithStyles(Paper)>
+  <h1>
+    404
+  </h1>
+  <p>
+    Page not found. Please check with your administrator if problem persists.
+  </p>
+</WithStyles(Paper)>
+`;

@@ -1,0 +1,23 @@
+.table-header {
+  border-top: 1px solid $gray;
+  border-right: 1px solid $gray;
+  border-left: 1px solid $gray;
+  border-bottom: 24px solid #4a4a4a;
+  height: 96px;
+  line-height: 24px;
+
+  h2 { float: left; margin: 24px; }
+}
+
+.sort-options { float: left; margin-top: 5px; }
+
+.limits {
+  float: right;
+  margin: 25px 20px 0;
+
+  li {
+    float: left;
+    margin-right: 10px;
+    font-size: em(13);
+  }
+}

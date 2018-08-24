@@ -1,0 +1,53 @@
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+  background: #fff;
+
+  h1,
+  h2 {
+    font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+  }
+}
+
+strong { font-weight: 700; }
+
+.fl { float: left; }
+
+.top-15,
+.top-10 { position: relative; }
+
+.top-15 { top: -15px; }
+
+.top-10 { top: -10px; }
+
+.tl { text-align: left; }
+.tc { text-align: center !important; }
+
+.tu { text-transform: uppercase; }
+
+.mt10 { margin-top: 10px; }
+
+.mr15 { margin-right: 15px; }
+
+.pt10 { position: relative; top: 10px; }
+
+.pad-0 { padding: 0 !important; }
+
+.w300 { width: 300px; }
+
+.w80 { width: 80px; }
+
+.w40 { width: 40px; }
+
+// Overrides
+.jss107, // For deployment class override
+.jss12,
+.MuiFormGroup-root-107,
+.MuiFormGroup-root-238 { display: block !important; }
+
+.MuiFormControlLabel-root-8 { float: left !important; }
